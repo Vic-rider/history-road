@@ -4,6 +4,7 @@
 /tmp
 /out-tsc
 /bazel-out
+/bubu
 
 # Node
 /node_modules
