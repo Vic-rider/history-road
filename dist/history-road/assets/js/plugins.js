@@ -109,37 +109,37 @@ window.onload = function () {
 
         /* Masque hp 01 */
         var draw = SVG('drawing-1').size(_w, _h);
-        var imgA = draw.image('media/images/bg-hp-01-nb.jpg', _img_w, _img_h);
+        var imgA = draw.image('../media/images/bg-hp-01-nb.jpg', _img_w, _img_h);
         var polyA = draw.polygon(_default_coord_A).fill({ color: _fill_color });
         imgA.maskWith(polyA);
 
         /* Masque hp 02 */
         var draw = SVG('drawing-2').size(_w, _h);
-        var imgB = draw.image('media/images/bg-hp-02-nb.jpg', _img_w, _img_h);
+        var imgB = draw.image('../media/images/bg-hp-02-nb.jpg', _img_w, _img_h);
         var polyB = draw.polygon(_default_coord_B).fill({ color: _fill_color });
         imgB.maskWith(polyB);
 
         /* Masque hp 03 */
         var draw = SVG('drawing-3').size(_w, _h);
-        var imgC = draw.image('media/images/bg-hp-03-nb.jpg', _img_w, _img_h);
+        var imgC = draw.image('../media/images/bg-hp-03-nb.jpg', _img_w, _img_h);
         var polyC = draw.polygon(_default_coord_C).fill({ color: _fill_color });
         imgC.maskWith(polyC);
 
         /* Masque hp 04 */
         var draw = SVG('drawing-4').size(_w, _h);
-        var imgD = draw.image('media/images/bg-hp-04-nb.jpg', _img_w, _img_h);
+        var imgD = draw.image('../media/images/bg-hp-04-nb.jpg', _img_w, _img_h);
         var polyD = draw.polygon(_default_coord_D).fill({ color: _fill_color });
         imgD.maskWith(polyD);
 
         /* Masque hp 05 */
         var draw = SVG('drawing-5').size(_w, _h);
-        var imgE = draw.image('media/images/bg-hp-05-nb.jpg', _img_w, _img_h);
+        var imgE = draw.image('../media/images/bg-hp-05-nb.jpg', _img_w, _img_h);
         var polyE = draw.polygon(_default_coord_E).fill({ color: _fill_color });
         imgE.maskWith(polyE);
 
         /* Masque hp theme */
         var draw = SVG('drawing-6').size(_w_theme, _h);
-        var imgF = draw.image('media/images/bg-hp-theme-nb.jpg', _w_theme, _img_h);
+        var imgF = draw.image('../media/images/bg-hp-theme-nb.jpg', _w_theme, _img_h);
         var polyF = draw.polygon(_default_coord_theme).fill({ color: _fill_color });
         imgF.maskWith(polyF);
 
@@ -212,7 +212,7 @@ window.onload = function () {
 
         var _fill_color = "#fff";
 
-        var _default_coord_A = [[0,_h], [0, 0], [(_w - 120), 0], [(_w - 70), _h]];        
+        var _default_coord_A = [[0,_h], [0, 0], [(_w - 120), 0], [(_w - 70), _h]];
         var _default_coord_B = [[0,_h], [0, 0], [(_w - 70), 0], [(_w - 90), _h]];
         var _default_coord_C = [[0,_h], [0, 0], [(_w - 90), 0], [(_w - 70), _h]];
         var _default_coord_D = [[0,_h], [0, 0], [(_w - 70), 0], [(_w - 110), _h]];
@@ -222,39 +222,39 @@ window.onload = function () {
 
         /* Masque hp mobile 01 */
         var draw = SVG('drawing-mobile-1').size(_w, _h);
-        var imgA = draw.image('media/images/bg-menu-mobile-01-nb.jpg', _img_w, _img_h);
+        var imgA = draw.image('../media/images/bg-menu-mobile-01-nb.jpg', _img_w, _img_h);
         var polyA = draw.polygon(_default_coord_A).fill({ color: _fill_color });
         imgA.maskWith(polyA);
 
 
         /* Masque hp mobile 02 */
         var draw = SVG('drawing-mobile-2').size(_w, _h);
-        var imgB = draw.image('media/images/bg-menu-mobile-02-nb.jpg', _img_w, _img_h);
+        var imgB = draw.image('../media/images/bg-menu-mobile-02-nb.jpg', _img_w, _img_h);
         var polyB = draw.polygon(_default_coord_B).fill({ color: _fill_color });
         imgB.maskWith(polyB);
 
         /* Masque hp mobile 03 */
         var draw = SVG('drawing-mobile-3').size(_w, _h);
-        var imgC = draw.image('media/images/bg-menu-mobile-03-nb.jpg', _img_w, _img_h);
+        var imgC = draw.image('../media/images/bg-menu-mobile-03-nb.jpg', _img_w, _img_h);
         var polyC = draw.polygon(_default_coord_C).fill({ color: _fill_color });
         imgC.maskWith(polyC);
 
         /* Masque hp mobile 04 */
         var draw = SVG('drawing-mobile-4').size(_w, _h);
-        var imgD = draw.image('media/images/bg-menu-mobile-04-nb.jpg', _img_w, _img_h);
+        var imgD = draw.image('../media/images/bg-menu-mobile-04-nb.jpg', _img_w, _img_h);
         var polyD = draw.polygon(_default_coord_D).fill({ color: _fill_color });
         imgD.maskWith(polyD);
 
         /* Masque hp mobile 05 */
         var draw = SVG('drawing-mobile-5').size(_w, _h);
-        var imgE = draw.image('media/images/bg-menu-mobile-05-nb.jpg', _img_w, _img_h);
+        var imgE = draw.image('../media/images/bg-menu-mobile-05-nb.jpg', _img_w, _img_h);
         var polyE = draw.polygon(_default_coord_E).fill({ color: _fill_color });
         imgE.maskWith(polyE);
 
 
         /* Masque hp mobile theme */
         var draw = SVG('drawing-mobile-6').size(_w_theme, _h);
-        var imgF = draw.image('media/images/bg-menu-mobile-theme-nb.jpg', _img_w, _img_h);
+        var imgF = draw.image('../media/images/bg-menu-mobile-theme-nb.jpg', _img_w, _img_h);
         var polyF = draw.polygon(_default_coord_theme).fill({ color: _fill_color });
         imgF.maskWith(polyF);
     }
@@ -321,7 +321,7 @@ $('.bxslider').bxSlider({
 /* mCustomScrollbar */
 /* permet d'afficher le contenu de la page article en cas de long contenu mais pas sous 1024px */
 (function($){
-    
+
     $(window).load(function(){
         var windowHeight = $(window).height();
 
